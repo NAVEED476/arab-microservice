@@ -12,6 +12,24 @@ const tableData = [
   { id: 3, name: 'Item 3', quantity: 8, price: 15 },
   { id: 4, name: 'Item 4', quantity: 12, price: 30 },
   { id: 5, name: 'Item 5', quantity: 18, price: 22 },
+  { id: 6, name: 'Item 1', quantity: 10, price: 20 },
+  { id: 7, name: 'Item 2', quantity: 15, price: 25 },
+  { id: 9, name: 'Item 3', quantity: 8, price: 15 },
+  { id: 10, name: 'Item 4', quantity: 12, price: 30 },
+  { id: 11, name: 'Item 5', quantity: 18, price: 22 },
+  { id: 12, name: 'Item 1', quantity: 10, price: 20 },
+  { id: 13, name: 'Item 2', quantity: 15, price: 25 },
+  { id: 14, name: 'Item 3', quantity: 8, price: 15 },
+  { id: 15, name: 'Item 4', quantity: 12, price: 30 },
+  { id: 16, name: 'Item 5', quantity: 18, price: 22 },
+  { id: 17, name: 'Item 1', quantity: 10, price: 20 },
+  { id: 18, name: 'Item 2', quantity: 15, price: 25 },
+  { id: 19, name: 'Item 3', quantity: 8, price: 15 },
+  { id: 20, name: 'Item 4', quantity: 12, price: 30 },
+  { id: 21, name: 'Item 5', quantity: 18, price: 22 },
+  { id: 22, name: 'Item 1', quantity: 10, price: 20 },
+  { id: 24, name: 'Item 2', quantity: 15, price: 25 },
+  { id: 25, name: 'Item 3', quantity: 8, price: 15 },
 ];
 
 app.get('/api/table', (req, res) => {
@@ -38,6 +56,13 @@ const graphData = [
   { x: 'Mar', y: 8 },
   { x: 'Apr', y: 12 },
   { x: 'May', y: 18 },
+  { x: 'Jun', y: 10 },
+  { x: 'Jul', y: 15 },
+  { x: 'Aug', y: 8 },
+  { x: 'Sep', y: 12 },
+  { x: 'Oct', y: 18 },
+  { x: 'Nov', y: 12 },
+  { x: 'Dec', y: 18 },
 ];
 
 app.get('/api/graph', (req, res) => {
